@@ -1,0 +1,12 @@
+Proceso
+	var salir <- "N"
+	Hacer
+		var numrandom
+		numrandom <- Aleatorio(0,100)
+		numrandom <- numrandom*5
+		Escribir numrandom
+		Escribir "Si desea salir puse "S", si no pulse cualquier letra"
+		Leer salir
+	Mientras salir != "S"
+	
+FinProceso
